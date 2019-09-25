@@ -18,8 +18,16 @@ Or install it yourself as:
     $ gem install file_retriever
 
 ## Usage
+``` ruby
+    
+skip_file_name_regs = []
+file_retriever = FileRetriever::FileRetriever.new(skip_file_name_regs)
+file_retriever.retrieved(".")
 
-coming soon..
+
+```
+[please refer here if needed](https://github.com/hayao11/FileRetriever)
+
 
 ## Development
 

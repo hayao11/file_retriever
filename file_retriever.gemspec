@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{This library supports file processing. }
   spec.description   = %q{This library supports file processing. It processes the specified directory recursively and provides file type and path information.}
-  spec.homepage      = "https://github.com/hayao11/FileRetriever"
+  spec.homepage      = "https://github.com/hayao11/file_retriever"
   spec.license       = "MIT"
 
 
