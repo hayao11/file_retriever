@@ -21,7 +21,7 @@ Or install it yourself as:
 ``` ruby
     
 skip_file_name_regs = []
-file_retriever = FileRetriever::FileRetriever.new(skip_file_name_regs)
+file_retriever = FileRetriever::Base.new(skip_file_name_regs)
 file_retriever.retrieved(".")
 
 
